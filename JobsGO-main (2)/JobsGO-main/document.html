@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/normal.css">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/doucment.css">
+    <script src="https://kit.fontawesome.com/1a096a2dbf.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-item navbar-item-up">
+                <div class="navbar-item-up-first">
+                    <ul class="navbar-item-list">
+                        <li class="navbar-item-list-item"><img src="./asset/img/logo.png" alt=""></li>
+                        <li class="navbar-item-list-item"><a href="#" class="navbar-item-up-link">Cách hoạt động</a>
+                        </li>
+                        <li class="navbar-item-list-item"><a href="#" class="navbar-item-up-link">Duyệt công
+                                việc</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-item-up-second">
+                    <ul class="navbar-item-list">
+                        <li class="navbar-item-list-item"><a href=""><i class="fa-solid fa-bell"></i> Thông báo</a>
+                        </li>
+                        <li class=" navbar-item-list-item navbar-item-list-item-dash"><a href=""><i
+                                    class="fa-solid fa-circle-info"></i> Trợ giúp</a></li>
+
+                        <li id="register" class="navbar-item-list-item hide"><a href="./register.html">Đăng ký</a></li>
+                        <li id="login" class="navbar-item-list-item hide"><a href="./login.html">Đăng nhập</a></li>
+
+                        <li class="navbar-item-list-item navbar-item-list-item-user hide2">
+                            <img src="./asset/img/avatar.png" alt="">
+                            <span>demo user</span>
+                            <ul class="navbar-item-list-item-user-list">
+                                <li class="item1"><a href="EmployerForm.html">Thông tin cá nhân</a></li>
+                                <li id="logout" class="item2"><span>Đăng xuất</span></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-item navbar-item-down">
+                <ul class="navbar-item-list">
+                    <li class="navbar-item-list-item navbar-item-list-item-company">
+                        <a href="">Công ty </a>
+                        <div class="navbar-item-list-item-info1">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info1-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info1-item">
+                                    <a href="">Công ty tiêu biểu </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info1-item">
+                                    <a href="">Tất cả công ty </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-employer">
+                        <a href="">Nhà tuyển dụng </a>
+                        <div class="navbar-item-list-item-info2">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info2-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info2-item">
+                                    <a href="">Đăng tin online </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info2-item">
+                                    <a href="">Tìm hồ sơ </a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-work">
+                        <a href="">Việc làm </a>
+                        <div class="navbar-item-list-item-info3">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info3-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Việc làm mới nhất </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Tìm việc làm </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Việc làm quản lý</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Phỏng vấn </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Mức lương</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-cv-profile">
+                        <a href="">CV/Hồ Sơ</a>
+                        <div class="navbar-item-list-item-info4">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info4-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info4-item">
+                                    <a href="">Tạo CV</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info4-item">
+                                    <a href="">Sửa lỗi CV</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="navbar-item-list-item navbar-item-list-item-blog">
+                        <a href="blogIT.html">Blog IT</a>
+                        <div class="navbar-item-list-item-info5">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info5-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info5-item">
+                                    <a href="blogIT.html">Thông tin</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info5-item">
+                                    <a href="document.html">Tài liệu</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container">
+            <div class="container-blog">
+                <div class="container-blog header">
+                    <h2>TÀI LIỆU TUYỂN DỤNG & NHÂN SỰ HAY - DOWNLOAD MIỄN PHÍ</h2>
+                    <hr style="width: 80%;">
+
+                    <div class="post-wrapper">
+                        <ul class="post-wrapper-ebook">
+                            <li>
+                                <img class="img-post"
+                                    src="https://jobsgo.vn/blog/wp-content/uploads/2023/03/Thi-truong-tuyen-dung-2022-2023-2.png"
+                                    alt="">
+                                <h2>
+                                    <i class="fa-solid fa-download" style="color: #fbd037;"></i>
+                                    <a href="https://jobsgo.vn/blog/ebook/bao-cao-thi-truong-tuyen-dung-2022-2023/">Báo
+                                        cáo
+                                        thị trường tuyển dụng 2022-2023</a>
+                                </h2>
+                            </li>
+
+                            <li>
+                                <img class="img-post"
+                                    src="https://jobsgo.vn/blog/wp-content/uploads/2022/03/Bao-cao-thi-truong-tuyen-dung.png"
+                                    alt="">
+                                <h2>
+                                    <i class="fa-solid fa-download" style="color: #fbd037;"></i>
+                                    <a href="https://jobsgo.vn/blog/ebook/bao-cao-thi-truong-tuyen-dung-2022-2023/">Thị
+                                        trường tuyển dụng ngành Du lịch
+                                        -Nhà hàng - Khách sạn hậu COVID-19
+                                    </a>
+                                </h2>
+                            </li>
+
+                            <li>
+                                <img class="img-post"
+                                    src="https://jobsgo.vn/blog/wp-content/uploads/2022/01/Tuyen-dung-qua-Facebook.png"
+                                    alt="">
+                                <h2>
+                                    <i class="fa-solid fa-download" style="color: #fbd037;"></i>
+                                    <a href="https://jobsgo.vn/blog/ebook/bi-quyet-tuyen-dung-qua-facebook/">12+ Điều
+                                        cầu
+                                        lưu ý để tuyển dụng qua Facebook hiệu quả</a>
+                                </h2>
+                            </li>
+
+                            <li>
+                                <img class="img-post"
+                                    src="https://jobsgo.vn/blog/wp-content/uploads/2022/01/30-cau-hoi-phong-van-giup-kham-pha-tinh-cach-ung-vien.png"
+                                    alt="">
+                                <h2>
+                                    <i class="fa-solid fa-download" style="color: #fbd037;"></i>
+                                    <a
+                                        href="https://jobsgo.vn/blog/ebook/30-cau-hoi-phong-van-giup-kham-pha-tinh-cach-ung-vien/">30
+                                        câu hỏi phỏng vấn giúp khám phá tính cách ứng viên
+                                </h2>
+                            </li>
+
+                            <li>
+                                <img class="img-post"
+                                    src="https://jobsgo.vn/blog/wp-content/uploads/2022/01/Xay-dung-thuong-hieu-nha-tuyen-dung.png"
+                                    alt="">
+                                <h2>
+                                    <i class="fa-solid fa-download" style="color: #fbd037;"></i>
+                                    <a href="https://jobsgo.vn/blog/ebook/xay-dung-thuong-hieu-nha-tuyen-dung/">Xây dựng
+                                        thương hiệu nhà tuyển dụng</a>
+                                </h2>
+                            </li>
+                            <li>
+                                <img class="img-post"
+                                    src="https://jobsgo.vn/blog/wp-content/uploads/2022/01/Quy-trinh-tuyen-dung-9-buoc.png"
+                                    alt="">
+                                <h2>
+                                    <i class="fa-solid fa-download" style="color: #fbd037;"></i>
+                                    <a href="https://jobsgo.vn/blog/ebook/quy-trinh-tuyen-dung-9-buoc/">Quy trình tuyển
+                                        dụng
+                                        9 bước</a>
+                                </h2>
+                            </li>
+
+                            <li>
+                                <img class="img-post"
+                                    src="https://jobsgo.vn/blog/wp-content/uploads/2022/01/14-mau-Email-nha-tuyen-dung-nhat-dinh-phai-co.jpg"
+                                    alt="">
+                                <h2>
+                                    <i class="fa-solid fa-download" style="color: #fbd037;"></i>
+                                    <a
+                                        href="https://jobsgo.vn/blog/ebook/14-mau-email-nha-tuyen-dung-nhat-dinh-phai-co/">14
+                                        Mẫu Email nhà tuyển dụng nhất định phải có</a>
+                                </h2>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-aside">
+                <div class="container-aside-search">
+                    <input type="text" placeholder="Nhập từ khóa cần tìm...">
+                    <div class="container-aside-search logo">
+                        <i class="fa-solid fa-magnifying-glass" style="color: #a63f3f;"></i>
+                    </div>
+                </div>
+                <div class="container-aside recent-post">
+                    <div class="recent-post">
+                        <h3 class="header"><u>BÀI ĐĂNG GẦN ĐÂY</u></h3>
+                    </div>
+                    <ul style="padding: 0;">
+                        <li><a href="https://jobsgo.vn/blog/cac-tinh-cach-phu-hop-lam-ve-it/">- Khám phá các tính cách
+                                phù hợp làm về IT</a></li>
+                        <li><a href="https://jobsgo.vn/blog/cai-ten-xac-dinh-tinh-cach-con-nguoi/">- Cái tên xác định
+                                tính cách con người như thế nào?</a></li>
+                        <li><a href="https://jobsgo.vn/blog/nganh-nghe-hop-voi-nguoi-huong-noi/">- Top 14 ngành nghề
+                                phù hợp với người hướng nội</a></li>
+                        <li><a href="https://jobsgo.vn/blog/mau-don-xin-nghi-phep/">- Tổng hợp các mẫu đơn xin nghỉ
+                                phép chuẩn nhất 2023</a></li>
+                        <li><a href="https://jobsgo.vn/blog/don-ung-tuyen-tieng-anh-la-gi/">- Đơn ứng tuyển tiếng anh
+                                là gì? Mẫu đơn ứng tuyển tiếng Anh cho mọi ngành nghề</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-one">
+            <div class="footer-one-content">
+                <ul class="footer-one-content-list">
+                    <li class="footer-one-content-item">
+                        <img src="./asset/img/logo.png" alt="">
+                    </li>
+                    <li class="footer-one-content-item">
+                        <a href="#"><i class="fa-solid fa-earth-americas"></i> Vietnam / Vietnamese</a>
+                    </li>
+                    <li class="footer-one-content-item">
+                        <a href="#"><i class="fa-solid fa-circle-question"></i> Help & Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one-content">
+                <ul class="footer-one-content-work-list">
+                    <h2>Việc làm</h2>
+                    <li class="footer-one-content-work-item"><a href="#">Thể Loại</a></li>
+                    <li class="footer-one-content-work-item"><a href="#">Doanh nghiệp</a></li>
+                    <li class="footer-one-content-work-item"><a href="#">Cuộc thi</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content">
+                <ul class="footer-one-content-about-list">
+                    <h2>Về</h2>
+                    <li class="footer-one-content-about-item"><a href="#">Về chúng tôi</a></li>
+                    <li class="footer-one-content-about-item"><a href="#">Bảo mật</a></li>
+                    <li class="footer-one-content-about-item"><a href="#">team</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-term">
+                <ul class="footer-one-content-term-list">
+                    <h2>Điều khoản</h2>
+                    <li class="footer-one-content-term-item"><a href="#">Chính sách bảo mật</a></li>
+                    <li class="footer-one-content-term-item"><a href="#">Các điều khoản và điều kiện</a></li>
+                    <li class="footer-one-content-term-item"><a href="#">Chính sách bản quyền</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-partners">
+                <ul class="footer-one-content-partners-list">
+                    <h2>Đối tác</h2>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">google</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">nasa</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">mars</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">alien</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-app">
+                <ul class="footer-one-content-app-list">
+                    <h2>Ứng dụng</h2>
+                    <li class="footer-one-content-app-item">
+                        <a href="#"><img src="./asset/img/app_store.png" alt=""></a>
+                    </li>
+                    <li class="footer-one-content-app-item">
+                        <a href="#"><img src="./asset/img/google_play.png" alt=""></a>
+                    </li>
+                    <li class="footer-one-content-app-item">
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-facebook"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-twitter"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-youtube"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-insta"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-two">
+            <div class="footer-two-content">
+                <span>
+                    423423 <br>
+                    Người dùng
+                </span>
+            </div>
+            <div class="footer-two-content">
+                <span>
+                    463 <br>
+                    Số lượng công việc đã đăng
+                </span>
+            </div>
+            <div class="footer-two-content">
+                <span>
+                    JobsGo ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189 759) <br>
+                    Copyright © 2023 Freelancer Technology Pty Limited (ACN 142 189 759)
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

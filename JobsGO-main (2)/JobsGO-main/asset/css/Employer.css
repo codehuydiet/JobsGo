@@ -1,0 +1,883 @@
+html {
+    font-size: 62.5%;
+    -webkit-user-select: none;
+    /* Cho các trình duyệt dựa trên WebKit */
+    -moz-user-select: none;
+    /* Cho các trình duyệt dựa trên Gecko */
+    -ms-user-select: none;
+    /* Cho các trình duyệt dựa trên Microsoft */
+    user-select: none;
+    /* Chức năng có sẵn trên các trình duyệt hiện đại */
+}
+
+body {
+    background-color: #DDDDDD;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+
+}
+
+
+header{
+
+    width: auto;
+    margin: 0 auto;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-item{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+ul li{
+    list-style: none;
+}
+
+.navbar-item-up{
+    background-color: #F6F7FC;
+    justify-content: space-between;
+    font-size: 1.3rem;
+}
+
+.navbar-item-up a{
+    color: #6077A6;
+}
+
+.navbar-item-up-first{
+    margin-left: 20px;
+}
+
+.navbar-item-up-second{
+    margin-right: 2rem;
+    position: relative;
+    color: var(--white-color);
+}
+
+.navbar-item-up-first img{
+    margin-top: -0.8rem;
+    width: 16rem;
+}
+
+.navbar-item-list-item{
+    font-weight: 300;
+    margin: 0 .8rem;
+    min-height: 3.4rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-item-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-top: .8rem;
+    position: relative;
+}
+
+.navbar-item-list-item-dash::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1.6rem;
+    border-right: 1px solid #6077A6;
+    top: 5;
+    right: 7.5rem;
+    opacity: 0.7;
+}
+
+/* ------------------------------------------ */
+#container {
+    margin-top: 3rem;
+    display: flex;
+    overflow: hidden;
+
+}
+
+#main {
+    width: 115rem;
+    min-height: 50rem;
+    margin-left: 1rem;
+    background-color: white;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+}
+
+.list-group {
+    width: 27rem;
+    height: 40rem;
+    margin-left: 3rem;
+    border-radius: 0.5rem;
+    background-color: white;
+}
+
+.list-group-item-heading {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list-group-item-heading button {
+    width: 50%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.list-group-item-heading :nth-child(1) {
+    color: #ffffff;
+    background-color: #007bff;
+    border-radius: 0.2rem;
+}
+
+.list-group-item-heading :nth-child(2) {
+    color: rgb(170, 166, 166);
+    background-color: rgb(255, 255, 255);
+}
+
+.list-group-item-heading :nth-child(2) i {
+    width: 3rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+}
+
+.list-group-item {
+    margin-top: 4.5rem;
+    width: 100%;
+    /* height: 40.5rem; */
+    font-size: 1.6rem;
+    background-color: white;
+}
+
+.list-group-item__account {
+    margin-top: -3.5rem;
+}
+
+.text-title {
+    margin-top: -1.5rem;
+    height: 4rem;
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    background-color: #007bff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group-item i {
+    text-align: center;
+    padding-top: 1rem;
+    width: 3.6rem;
+    height: 4rem;
+    background-color: rgb(179, 134, 134);
+    margin-right: 2rem;
+    border-radius: 0px 50% 50% 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    margin-top: 0.1px;
+}
+
+.list-group-item ul li {
+    height: 4rem;
+    background-color: #C0C0C0;
+    margin-bottom: 0.1rem;
+}
+
+/* --------------------------------- NHÀ TUYỂN DỤNG---------------------------------------------- */
+
+.information-Employer__img {
+    margin: 1.5rem;
+    width: 110rem;
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-image: url('https://designlife.vn/wp-content/uploads/2015/02/MG_7373.jpg');
+    background-size: 100%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 5px;
+}
+
+.information-Employer__update {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.information-Employer__update td label {
+    margin-right: 3 rem;
+}
+.information-Employer__update tr{
+    padding-bottom: 20rem;
+}
+.information-Employer_btnUpdate {
+    width: 10rem;
+    height: 4rem;
+    font-size: 1.7rem;
+    border-radius: 0.3rem;
+    color: green;
+    border-color: green;
+    margin-top: 6rem;
+    margin-left: 90rem;
+
+}
+.information-Employer_btnUpdate:hover{
+    background-color: #e0f194;
+    transition: 0.4s;
+    border-color: #007bff;
+}
+.information-Employer_btnUpdate:active{
+    background-color: #4465a8;
+}
+.list-group li:hover {
+    background-color: #FFCCCC;
+}
+
+.list-group li:active {
+    background-color: #66CCCC;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 2.5rem;
+    height: 1.5rem;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: -1.8rem;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    left: 0.15rem;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #08d40b;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #b70b11;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(2.6rem);
+    -ms-transform: translateX(2.6rem);
+    transform: translateX(2.6rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 2rem;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.information-Employer__status-switch-name {
+    font-size: 19px;
+    padding-left: 2.3rem;
+
+}
+
+.information-Employer__status {
+    margin-top: -1rem;
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.information-Employer__status .number-staff {
+    margin-left: 3rem;
+}
+
+.information-Employer__status .number-staff i {
+    margin-top: 2rem;
+    margin-right: 0.8rem;
+}
+
+/* --------------------------------------Thông tin tài khoản --------------------------------------------*/
+.information-account-form h6 {
+    margin: 2rem;
+    font-size: 3rem;
+}
+
+.information-account-form .one {
+    width: 43rem;
+    height: 18rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+    margin-right: 17rem;
+    border: 1px solid #C0C0C0;
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+.information-account-form .one-information {
+    font-size: 1.5rem;
+}
+
+.information-account-form .one-avatar {
+    margin: 1.5rem;
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: url("https://demoda.vn/wp-content/uploads/2022/02/avatar-anime-cute.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.information-account-form .one-information {
+    width: 24rem;
+    height: 15rem;
+    padding-top: 4rem;
+    box-sizing: border-box;
+}
+
+.information-account-form .one-information div {
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+
+.information-account-form .two {
+
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-account-form .two {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-account-form .two .row {
+    margin-bottom: 1.5rem;
+}
+
+/* Thiết lập kiểu hiển thị của phần tử */
+.information-account-form .two span,
+.information-account-form .two input {
+    display: inline-block;
+    height: 2.3rem
+}
+
+/* Thiết lập kích thước và margin cho các phần tử */
+.information-account-form .two span {
+    width: 16rem;
+    margin-right: 1rem;
+    font-size: 2.2rem;
+}
+
+.information-account-form .two input {
+    width: calc(100% - 280px);
+}
+
+
+/* Đổi mật khẩu */
+
+.changePassword-form-input {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+
+}
+
+.changePassword-form-input input {
+    width: 20rem;
+    height: 2rem;
+}
+
+/* ------------------------------------------------- ĐĂNG XUẤT------------------------------------------- */
+
+.modal-logout-container {
+    height:100vh;
+    background:rgba(0, 0, 0, 0.5);
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    font-size: 1.6rem;
+}
+
+#modal-logout{
+    background:#fff;
+    max-width: 500px;
+    position:relative;
+    left:50%;
+    top:100px;
+    transform:translateX(-50%);
+  }
+  
+  .modal-logout-header{
+    background-color: #6077A6;
+    color: white;
+  
+  }
+  #modal-logout .modal-logout-header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 20px;
+    border-bottom: 1px solid #0e0f0f;
+  }
+  #modal-logout .modal-logout-header h3{
+    margin:0;
+  }
+  
+  #modal-logout .modal-logout-body{
+    padding:15px 20px;
+    color:#140808;
+  }
+  .modal-logout-footer{
+    padding:15px;
+    text-align:right;
+  }
+  .modal-logout-footer button{
+    padding:10px 20px;
+    color:#fff;
+    border-radius: 5px;
+    border:none;
+    background-color: #4465a8;
+  }
+
+/* -----------------------------------------Đăng bài------------------------------------------------------------- */
+/* width */
+.modal-post::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* Track */
+.modal-post ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.modal-post::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.modal-post::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.modal-post {
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+    overflow: scroll;
+    /* Nằm giữa chiều ngang của thẻ cha */
+    justify-content: center;
+
+}
+.modal-container-post input:focus{
+    outline: none;
+}
+.modal-header {
+    margin-top: -4.1rem;
+    height: 5rem;
+    background-color: #6666FF;
+    box-sizing: border-box;
+}
+
+.modal-container-post {
+    height: 170rem;
+    width: 70rem;
+    margin-top: 6rem;
+    min-height: 115rem;
+    background-color: #ffffff;
+    position: relative;
+
+}
+
+.modal-header h5 {
+    padding-top: 0.7rem;
+    padding-left: 1.3rem;
+    font-size: 2.5rem;
+    box-sizing: border-box;
+}
+
+.modal-body .post-information {
+    margin-top: 4rem;
+    padding-left: 9rem;
+
+}
+
+.label-title {
+    width: 13rem;
+    height: 3rem;
+    margin-bottom: 0.6rem;
+    background-color: #5AA8FF;
+    font-weight: 500;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.modal-body .post-information__selection-option {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.input-form-label {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.input-form-label :nth-child(1) {
+    width: 9rem;
+    height: 3.1rem;
+    margin-left: -9rem;
+    background-color: rgb(202, 215, 215);
+    border: 1px solid rgb(130, 128, 128);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.post-information-label {
+    height: 5rem;
+    margin-left: -9rem;
+    margin-bottom: 2rem;
+    padding-left: 3rem;
+    background-color: #FDF5E6;
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+}
+.post-information .input-form{
+    margin-top: 4rem;
+}
+.modal-body .post-information .option-input li {
+    display: inline-block;
+    margin-top: 1.7rem;
+}
+
+.post-information-input input {
+    width: 16rem;
+    height: 3rem;
+    border-radius: 3px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: green;
+    margin-bottom: 2.6rem;
+    margin-right: 2rem;
+}   
+
+.post-information-input label {
+    margin-left: -5.6rem;
+    margin-right: 7rem;
+    font-size: 1.5rem;
+}
+
+.modal-body .post-information .list-checkbox-walfare {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-body .post-information .list-checkbox-walfare li {
+    font-size: 1.5rem;
+    margin-bottom: 0.67rem;
+    width: 33%;
+}
+
+.modal-body .post-information textarea {
+    width: 53rem;
+    border: 1px solid red;
+
+}
+
+#btn-post {
+    margin-top: 3.3rem;
+    display: block;
+    width: 13.3rem;
+    height: 2.6rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    background-color: #FDF5E6;
+    border-radius: 0.3rem;
+    border: 1px solid green;
+}
+
+#btn-post:hover {
+    background-color: aquamarine;
+}
+
+/* ---------------------------------- Quản lý bài viết tuyển dụng ------------------------------------------------------ */
+.post-management-form .number-post {
+    margin-top: -1rem;
+    margin-left: 3rem;
+    font-size: 1.5rem;
+}
+
+.post-management-form .container {
+    margin-top: 2.5rem;
+    margin-left: 3rem;
+    width: 60rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.post-management-form .container img {
+    margin: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border: 1px solid black;
+    margin-right: 3rem;
+}
+
+
+.post-management-form .container-content .header-title{
+    font-size: 2rem;
+    margin-bottom: 1.7rem;
+    margin-top: 1rem;
+    margin-left: 0px;
+    font-weight: bold;
+}
+.post-management-form .container-content .header .header-content {
+    margin-top: -1rem;
+    margin-left: 2rem;
+    font-size: 1.3rem;
+}
+
+.body-information {
+    margin-top: 0.2rem;
+    font-size: 1.4rem;
+}
+
+.container-content .body button {
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 0.3rem;
+    color: white;
+
+}
+
+#btn-view-post-detail {
+    background-color: #6666FF;
+}
+
+#btn-remove-post {
+    background-color: #f45b60;
+}
+
+#btn-lock {
+    width: 4rem;
+    margin-left: 11rem;
+    border: 1px solid yellow;
+}
+
+#btn-lock:hover {
+    background-color: #9f9f9f;
+}
+
+/* ----------------- Danh sách ứng viên--------------------------------------------------------------- */
+.list-candidate-form .header{
+margin: 2rem;
+display: flex;
+justify-content: space-between;
+font-size: 2.8rem;
+}
+.list-candidate-form-number{
+    font-size: 1.5rem;
+    margin-top: -1.8rem;
+    margin-left: 3rem;
+}
+.list-candidate-form .body{
+    width: 95%;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    border: 1px solid rgb(234, 227, 227);
+}
+
+.list-candidate-form .body table thead th{
+    background-color: #5b5858;
+    /* width: 20rem; */
+    color: white;
+}
+
+.list-candidate-form .body tbody tr{
+    height: 3rem;
+}
+.list-candidate-form .body tr:hover{
+    background-color: rgb(141, 245, 122) !important;
+}
+/* ---------------------------------------------------footer------------------------------------ */
+a{
+    text-decoration: none
+    }
+    
+    Ul li{
+    List-style:none;
+    } 
+footer {
+    width: 100%;
+    height: 28rem;
+    margin-top: 3.3rem;
+    background-color: #333;
+    color: #c0bbb2;
+    font-size: 1.3rem;
+}
+
+footer a {
+    color: #c0bbb2;
+}
+
+footer a:hover {
+    color: var(--white-color);
+}
+
+.footer-one {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.footer-one::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 95%;
+    border-bottom: 1px solid rgb(156, 156, 156);
+    bottom: 0;
+}
+
+.footer-one-content-list img {
+    width: 15rem;
+}
+
+.footer-one-content-item {
+    padding-top: 15px;
+    font-size: 1.3rem;
+}
+
+.footer-one-content-work-list h2 {
+    padding-top: 2.3rem;
+    color: var(--white-color);
+}
+
+.footer-one-content-work-item {
+    padding-top: 1rem;
+}
+
+.footer-one-content-about-list h2 {
+    padding-top: 2.3rem;
+    color: var(--white-color);
+}
+
+.footer-one-content-about-item {
+    padding-top: 1rem;
+}
+
+.footer-one-content-term-list h2 {
+    padding-top: 2.3rem;
+    color: var(--white-color);
+}
+
+.footer-one-content-term-item {
+    padding-top: 1rem;
+}
+
+.footer-one-content-partners-list h2 {
+    padding-top: 2.3rem;
+    color: var(--white-color);
+}
+
+.footer-one-content-partners-item {
+    padding-top: 1rem;
+}
+
+.footer-one-content-app-list h2 {
+    padding-top: 2.3rem;
+    color: var(--white-color);
+}
+
+.footer-one-content-app-item {
+    padding-top: 1rem;
+}
+
+
+.footer-one-content-app-item-link {
+    font-size: 1.6rem;
+    padding: 0 1rem;
+}
+
+.footer-one-content-app-item-facebook:hover {
+    color: #1877f2;
+}
+
+.footer-one-content-app-item-twitter:hover {
+    color: #71afff;
+}
+
+.footer-one-content-app-item-youtube:hover {
+    color: #f00;
+}
+
+.footer-one-content-app-item-insta:hover {
+    color: #ff3593;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: space-around;
+    color: var(--white-color);
+    padding-top: 2rem;
+}

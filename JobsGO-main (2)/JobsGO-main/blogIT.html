@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/asset/css/normal.css">
+    <link rel="stylesheet" href="/asset/css/base.css">
+    <link rel="stylesheet" href="/asset/css/blogIT.css">
+    <script src="https://kit.fontawesome.com/1a096a2dbf.js" crossorigin="anonymous"></script>
+    <title>Blog IT</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-item navbar-item-up">
+                <div class="navbar-item-up-first">
+                    <ul class="navbar-item-list">
+                        <li class="navbar-item-list-item"><img src="./asset/img/logo.png" alt=""></li>
+                        <li class="navbar-item-list-item"><a href="#" class="navbar-item-up-link">Cách hoạt động</a>
+                        </li>
+                        <li class="navbar-item-list-item"><a href="#" class="navbar-item-up-link">Duyệt công
+                                việc</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-item-up-second">
+                    <ul class="navbar-item-list">
+                        <li class="navbar-item-list-item"><a href=""><i class="fa-solid fa-bell"></i> Thông báo</a>
+                        </li>
+                        <li class=" navbar-item-list-item navbar-item-list-item-dash"><a href=""><i
+                                    class="fa-solid fa-circle-info"></i> Trợ giúp</a></li>
+
+                        <li id="register" class="navbar-item-list-item hide"><a href="./register.html">Đăng ký</a></li>
+                        <li id="login" class="navbar-item-list-item hide"><a href="./login.html">Đăng nhập</a></li>
+
+                        <!-- <li class="navbar-item-list-item navbar-item-list-item-user hide2">
+                            <img src="./asset/img/avatar.png" alt="">
+                            <span>demo user</span>
+                            <ul class="navbar-item-list-item-user-list">
+                                <li class="item1"><a href="EmployerForm.html">Thông tin cá nhân</a></li>
+                                <li id="logout" class="item2"><span>Đăng xuất</span></li>
+                            </ul>
+
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-item navbar-item-down">
+                <ul class="navbar-item-list">
+                    <li class="navbar-item-list-item navbar-item-list-item-company">
+                        <a href="">Công ty </a>
+                        <div class="navbar-item-list-item-info1">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info1-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info1-item">
+                                    <a href="">Công ty tiêu biểu </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info1-item">
+                                    <a href="">Tất cả công ty </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-employer">
+                        <a href="">Nhà tuyển dụng </a>
+                        <div class="navbar-item-list-item-info2">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info2-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info2-item">
+                                    <a href="">Đăng tin online </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info2-item">
+                                    <a href="">Tìm hồ sơ </a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-work">
+                        <a href="">Việc làm </a>
+                        <div class="navbar-item-list-item-info3">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info3-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Việc làm mới nhất </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Tìm việc làm </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Việc làm quản lý</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Phỏng vấn </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Mức lương</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-cv-profile">
+                        <a href="">CV/Hồ Sơ</a>
+                        <div class="navbar-item-list-item-info4">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info4-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info4-item">
+                                    <a href="">Tạo CV</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info4-item">
+                                    <a href="">Sửa lỗi CV</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="navbar-item-list-item navbar-item-list-item-blog">
+                        <a href="blogIT.html">Blog IT</a>
+                        <div class="navbar-item-list-item-info5">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info5-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info5-item">
+                                    <a href="blogIT.html">Thông tin</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info5-item">
+                                    <a href="document.html">Tài liệu</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container-blog">
+            <div class="container-blog grid-container">
+                <div class="grid-container post">
+                    <div class="post-content">
+                        <div class="post-content content">
+                            <h2><a href="https://itviec.com/blog/dinh-huong-nghe-nghiep/">Sự nghiệp IT</a></h2>
+                            <span>Không bao giờ là quá muộn để trở nên xuất sắc trong ngành IT. Từ hình mẫu thực tế, khám phá
+                                con đường sự nghiệp IT cho riêng bạn.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="grid-container post">
+                    <div class="post-content">
+                        <div class="post-content content">
+                            <h2><a href="https://itviec.com/blog/dinh-huong-nghe-nghiep/">Ứng tuyển và Thăng tiến</a>
+                            </h2>
+                            <span>Từ cách viết CV đến phỏng vấn, deal lương. Tận dụng lời khuyên từ người thật, việc thật. Sớm
+                                thành "pro", chốt luôn công việc IT tuyệt vời như ý muốn!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-container post">
+                    <div class="post-content">
+                        <div class="post-content content">
+                            <h2><a href="https://itviec.com/blog/dinh-huong-nghe-nghiep/">Chuyên môn IT</a></h2>
+                            <span>Cập nhật kiến thức về các ngôn ngữ lập trình, công nghệ ngành IT và tự học với 100+ tài liệu
+                                lập trình IT sau đây. Khám phá ngay!</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid-container post">
+                    <div class="post-content">
+                        <div class="post-content content">
+                            <h2><a href="https://itviec.com/blog/dinh-huong-nghe-nghiep/">Lương & Chế độ làm việc</a>
+                            </h2>
+                            <span>Mức lương thực tế của các vị trí IT như bạn là bao nhiêu? Mong đợi về chế độ làm việc và đãi
+                                ngộ có gì khác nhau? Tìm hiểu ngay.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container-blog new-post">
+                <div class="new-post-header">
+                    <h3>Mới nhất</h3>
+                </div>
+                <div class="new-post-body">
+                    <div class="new-post-wrapper">
+                        <a href="https://itviec.com/blog/cong-ty-it-tot-nhat-viet-nam-2023/">
+                            <img src="https://itviec.com/blog/wp-content/uploads/2023/03/Blog-Thumbnail-scaled.webp"
+                                alt="">
+                        </a>
+                        <div class="new-post-container">
+                            <div class="new-post-container new-post-container-item">
+                                <header>
+                                    <h3>
+                                        <a href="https://itviec.com/blog/cong-ty-it-tot-nhat-viet-nam-2023/" class="">
+                                            Danh sách Công ty IT tốt nhất Việt Nam 2023 có gì đáng chú ý?</a>
+                                    </h3>
+                                </header>
+    
+                                <div class="new-post-container text-light">
+                                    <p>Danh sách Công ty IT tốt nhất Việt Nam 2023 được mở rộng và phân loại theo quy mô
+                                        công
+                                        ty, cung cấp bức tranh toàn diện và chi tiết hơn về những nơi làm việc lý tưởng nhất
+                                        đối…</p>
+                                </div>
+                            </div>
+                            <div class="new-post-container text-right">
+                                <a href="https://itviec.com/blog/cong-ty-it-tot-nhat-viet-nam-2023/">
+                                    Bắt đầu đọc (8 phút)<i class="remixicon remixicon-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="new-post-wrapper">
+                        <a href="https://itviec.com/blog/xu-huong-tuyen-dung-it-2023/">
+                            <img src="https://itviec.com/blog/wp-content/uploads/2023/03/xu-huong-tuyen-dung-it-2023-thumbnail-950x500.webp"
+                                alt="">
+                        </a>
+                        <div class="new-post-container">
+                            <div class="new-post-container new-post-container-item">
+                                <header>
+                                    <h3>
+                                        <a href="https://itviec.com/blog/xu-huong-tuyen-dung-it-2023/">
+                                            Xu hướng tuyển dụng IT nổi bật tại Việt Nam năm 2023</a>
+                                    </h3>
+                                </header>
+    
+                                <div class="new-post-container text-light">
+                                    <p>Theo phản hồi của 200 nhà tuyển dụng từ khảo sát thường niên của ITviec, năm 2022 là
+                                        một năm khả quan đối với thị trường tuyển dụng IT tại Việt Nam khi có đến 91.8% công
+                                        ty mở rộng…</p>
+                                </div>
+                            </div>
+                            <div class="new-post-container text-right">
+                                <a href="https://itviec.com/blog/xu-huong-tuyen-dung-it-2023/">
+                                    Bắt đầu đọc (6 phút)<i class="remixicon remixicon-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="new-post-wrapper">
+                        <a href="https://itviec.com/blog/vietnam-it-recruiting-trends-2023/">
+                            <img src="https://itviec.com/blog/wp-content/uploads/2023/03/itviec-it-recruiting-trends-2023-950x500.webp"
+                                alt="">
+                        </a>
+                        <div class="new-post-container">
+                            <div class="new-post-container new-post-container-item">
+                                <header>
+                                    <h3>
+                                        <a href="https://itviec.com/blog/vietnam-it-recruiting-trends-2023/">
+                                            Key takeaways for Vietnam’s IT recruiting trends in 2023</a>
+                                    </h3>
+                                </header>
+    
+                                <div class="new-post-container text-light">
+                                    <p>According to 200 responses from ITviec’s Employer Annual Survey, 2022 could be a
+                                        great year for IT recruiting in Vietnam, with 91.8% of companies expanding IT team
+                                        size and 80% raising the salary for their new IT hires. What about…</p>
+                                </div>
+                            </div>
+                            <div class="new-post-container text-right">
+                                <a href="https://itviec.com/blog/vietnam-it-recruiting-trends-2023/">
+                                    Bắt đầu đọc (3 phút)<i class="remixicon remixicon-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-blog new-post">
+                <div class="new-post-header">
+                    <h3>Bài viết chọn lọc</h3>
+                </div>
+                <div class="new-post-body">
+                    <div class="new-post-wrapper">
+                        <a href="https://itviec.com/blog/framework-la-gi-top-framework-pho-bien-nhat/">
+                            <img src="https://itviec.com/blog/wp-content/uploads/2022/05/framework-la-gi-thumbnail.jpg"
+                                alt="">
+                        </a>
+                        <div class="new-post-container">
+                            <div class="new-post-container new-post-container-item">
+                                <header>
+                                    <h3>
+                                        <a href="https://itviec.com/blog/framework-la-gi-top-framework-pho-bien-nhat/">
+                                            Top 15+ framework back-end, front-end và mobile phổ biến nhất 2023</a>
+                                    </h3>
+                                </header>
+    
+                                <div class="new-post-container text-light">
+                                    <p>Là một lập trình viên, bạn không cần phải phát triển mọi ứng dụng lại từ đầu bởi vì đã có các công cụ được thiết kế để hỗ trợ bạn, framework là một trong những công cụ hữu dụng…</p>
+                                </div>
+                            </div>
+                            <div class="new-post-container text-right">
+                                <a href="https://itviec.com/blog/framework-la-gi-top-framework-pho-bien-nhat/">
+                                    Bắt đầu đọc (24 phút)<i class="remixicon remixicon-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="new-post-wrapper">
+                        <a href="https://itviec.com/blog/tu-ao-lang-den-out-trinh/">
+                            <img src="https://itviec.com/blog/wp-content/uploads/2022/07/tu-ao-lang-den-out-trinh-thumbnail-768x404.webp"
+                                alt="">
+                        </a>
+                        <div class="new-post-container">
+                            <div class="new-post-container new-post-container-item">
+                                <header>
+                                    <h3>
+                                        <a href="https://itviec.com/blog/tu-ao-lang-den-out-trinh/">
+                                            “TỪ AO LÀNG ĐẾN OUT TRÌNH” – Lần đầu tiên chuyên gia IT giãi bày bằng con chữ</a>
+                                    </h3>
+                                </header>
+                                <div class="new-post-container text-light">
+                                    <p>Nhân kỷ niệm 9 năm ngày thành lập, ITviec tổ chức cuộc thi viết “Từ Ao làng đến Out trình” nhằm mang đến một sân chơi mới dành cho “anh chị em” IT – nơi để mọi người cùng nhau…</p>
+                                </div>
+                            </div>
+                            
+                            <div class="new-post-container text-right">
+                                <a href="https://itviec.com/blog/tu-ao-lang-den-out-trinh/">
+                                    Bắt đầu đọc (6 phút)<i class="remixicon remixicon-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="new-post-wrapper">
+                        <a href="https://itviec.com/blog/workshop-xay-dung-doi-ngu-thich-ung-truoc-thay-doi/">
+                            <img src="https://itviec.com/blog/wp-content/uploads/2023/03/itviec-it-recruiting-trends-2023-950x500.webp"
+                                alt="">
+                        </a>
+                        <div class="new-post-container">
+                            <div class="new-post-container new-post-container-item">    
+                                <header>
+                                    <h3>
+                                        <a href="https://itviec.com/blog/workshop-xay-dung-doi-ngu-thich-ung-truoc-thay-doi/">
+                                            Tường thuật buổi workshop “XÂY DỰNG ĐỘI NGŨ THÍCH ỨNG TRƯỚC THAY ĐỔI” dành cho nhà tuyển dụng của ITviec</a>
+                                    </h3>
+                                </header>
+    
+                                <div class="new-post-container text-light">
+                                    <p>Đọc bản tiếng Anh tại đây. Workshop “XÂY DỰNG ĐỘI NGŨ THÍCH ỨNG TRƯỚC THAY ĐỔI”, hợp tác giữa ITviec và Dale Carnegie, đã chính thức diễn ra vào ngày 24/05/2022 tại TP. HCM và ngày 31/05/2022 tại Hà Nội…</p>
+                                </div>
+                            </div>
+                            <div class="new-post-container text-right">
+                                <a href="https://itviec.com/blog/workshop-xay-dung-doi-ngu-thich-ung-truoc-thay-doi/">
+                                    Bắt đầu đọc (4 phút)<i class="remixicon remixicon-arrow-right-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer-one">
+            <div class="footer-one-content">
+                <ul class="footer-one-content-list">
+                    <li class="footer-one-content-item">
+                        <img src="./asset/img/logo.png" alt="">
+                    </li>
+                    <li class="footer-one-content-item">
+                        <a href="#"><i class="fa-solid fa-earth-americas"></i> Vietnam / Vietnamese</a>
+                    </li>
+                    <li class="footer-one-content-item">
+                        <a href="#"><i class="fa-solid fa-circle-question"></i> Help & Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one-content">
+                <ul class="footer-one-content-work-list">
+                    <h2>Việc làm</h2>
+                    <li class="footer-one-content-work-item"><a href="#">Thể Loại</a></li>
+                    <li class="footer-one-content-work-item"><a href="#">Doanh nghiệp</a></li>
+                    <li class="footer-one-content-work-item"><a href="#">Cuộc thi</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content">
+                <ul class="footer-one-content-about-list">
+                    <h2>Về</h2>
+                    <li class="footer-one-content-about-item"><a href="#">Về chúng tôi</a></li>
+                    <li class="footer-one-content-about-item"><a href="#">Bảo mật</a></li>
+                    <li class="footer-one-content-about-item"><a href="#">team</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-term">
+                <ul class="footer-one-content-term-list">
+                    <h2>Điều khoản</h2>
+                    <li class="footer-one-content-term-item"><a href="#">Chính sách bảo mật</a></li>
+                    <li class="footer-one-content-term-item"><a href="#">Các điều khoản và điều kiện</a></li>
+                    <li class="footer-one-content-term-item"><a href="#">Chính sách bản quyền</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-partners">
+                <ul class="footer-one-content-partners-list">
+                    <h2>Đối tác</h2>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">google</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">nasa</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">mars</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">alien</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-app">
+                <ul class="footer-one-content-app-list">
+                    <h2>Ứng dụng</h2>
+                    <li class="footer-one-content-app-item">
+                        <a href="#"><img src="./asset/img/app_store.png" alt=""></a>
+                    </li>
+                    <li class="footer-one-content-app-item">
+                        <a href="#"><img src="./asset/img/google_play.png" alt=""></a>
+                    </li>
+                    <li class="footer-one-content-app-item">
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-facebook"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-twitter"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-youtube"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-insta"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-two">
+            <div class="footer-two-content">
+                <span>
+                    423423 <br>
+                    Người dùng
+                </span>
+            </div>
+            <div class="footer-two-content">
+                <span>
+                    463 <br>
+                    Số lượng công việc đã đăng
+                </span>
+            </div>
+            <div class="footer-two-content">
+                <span>
+                    JobsGo ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189 759) <br>
+                    Copyright © 2023 Freelancer Technology Pty Limited (ACN 142 189 759)
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

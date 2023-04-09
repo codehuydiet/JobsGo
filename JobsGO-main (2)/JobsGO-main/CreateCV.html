@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/base.css">
+    <link rel="stylesheet" href="./asset/css/normal.css">
+    <link rel="stylesheet" href="./asset/css/createCV.css">
+    <script src="https://kit.fontawesome.com/0eb8452970.js" crossorigin="anonymous"></script>
+    <title> Tạo CV </title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-item navbar-item-up">
+                <div class="navbar-item-up-first">
+                    <ul class="navbar-item-list">
+                        <li class="navbar-item-list-item"><img src="./asset/img/logo.png" alt=""></li>
+                        <li class="navbar-item-list-item"><a href="#" class="navbar-item-up-link">Cách hoạt động</a>
+                        </li>
+                        <li class="navbar-item-list-item"><a href="#" class="navbar-item-up-link">Duyệt công
+                                việc</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-item-up-second">
+                    <ul class="navbar-item-list">
+                        <li class="navbar-item-list-item"><a href=""><i class="fa-solid fa-bell"></i> Thông báo</a>
+                        </li>
+                        <li class=" navbar-item-list-item navbar-item-list-item-dash"><a href=""><i
+                                    class="fa-solid fa-circle-info"></i> Trợ giúp</a></li>
+
+                        <li id="register" class="navbar-item-list-item hide"><a href="./register.html">Đăng ký</a></li>
+                        <li id="login" class="navbar-item-list-item hide"><a href="./login.html">Đăng nhập</a></li>
+
+                        <li class="navbar-item-list-item navbar-item-list-item-user hide2">
+                            <img src="./asset/img/avatar.png" alt="">
+                            <span>demo user</span>
+                            <ul class="navbar-item-list-item-user-list">
+                                <li class="item1"><a href="ProfileUser.html">Thông tin cá nhân</a></li>
+                                <li id="logout" class="item2"><span>Đăng xuất</span></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="navbar-item navbar-item-down">
+                <ul class="navbar-item-list">
+                    <li class="navbar-item-list-item navbar-item-list-item-company">
+                        <a href="">Công ty </a>
+                        <div class="navbar-item-list-item-info1">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info1-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info1-item">
+                                    <a href="">Công ty tiêu biểu </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info1-item">
+                                    <a href="">Tất cả công ty </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-employer">
+                        <a href="">Nhà tuyển dụng </a>
+                        <div class="navbar-item-list-item-info2">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info2-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info2-item">
+                                    <a href="">Đăng tin online </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info2-item">
+                                    <a href="">Tìm hồ sơ </a> 
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-work">
+                        <a href="">Việc làm </a>
+                        <div class="navbar-item-list-item-info3">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info3-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Việc làm mới nhất </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Tìm việc làm </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Việc làm quản lý</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Phỏng vấn </a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info3-item">
+                                    <a href="">Mức lương</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar-item-list-item navbar-item-list-item-cv-profile">
+                        <a href="">CV/Hồ Sơ</a>
+                        <div class="navbar-item-list-item-info4">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info4-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info4-item">
+                                    <a href="">Tạo CV</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info4-item">
+                                    <a href="">Sửa lỗi CV</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="navbar-item-list-item navbar-item-list-item-blog">
+                        <a href="blogIT.html">Blog IT</a>
+                        <div class="navbar-item-list-item-info5">
+                            <ul class="navbar-item-list-item-info-list navbar-item-list-item-info5-list">
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info5-item">
+                                    <a href="blogIT.html">Thông tin</a>
+                                </li>
+                                <li class="navbar-item-list-item-info-item navbar-item-list-item-info5-item">
+                                    <a href="document.html">Tài liệu</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div id="wrapper">
+        <!---->
+        <div class="top">
+            <div class="logo">
+                <h1 class="">Tạo CV xin việc Online chuẩn, đẹp miễn phí với JobsGO</h1>
+                <h2 class="">Tổng hợp danh sách mẫu CV xin việc làm online đẹp ấn tượng giúp việc tạo CV xin việc Online
+                    của bạn trở nên đơn giản, <br> nhanh chóng và dễ dàng với JobsGO.</br></h2>
+            </div>
+        </div>
+        <!---->
+        <div class="card-box">
+            <div class="box-jc box-ce box-1">
+                <div class="clearfix">
+                    <h7>Bạn đã có sẵn CV? Hãy tải lên để cập nhật thông tin hồ sơ tự động. <strong><u>Upload CV
+                                ngay!</u></strong></h7>
+                </div>
+            </div>
+        </div>
+        <!---->
+        <div class="container">
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv1.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 1 </strong></div>
+                </div>
+
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv2.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 2</strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv3.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 3</strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv4.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 4</strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv5.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 5</strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv6.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 6</strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv7.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 7</strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv8.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 8 </strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv9.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 9 </strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv10.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 10 </strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv11.png">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 11 </strong></div>
+                </div>
+            </div>
+            <div class="sanpham">
+                <div class="prod">
+
+                    <img class="image" src="/asset/img/cv14.jpg">
+                    <div class="name"><strong>Mẫu CV tiêu chuẩn 12 </strong></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footer-one">
+            <div class="footer-one-content">
+                <ul class="footer-one-content-list">
+                    <li class="footer-one-content-item">
+                        <img src="./asset/img/logo.png" alt="">
+                    </li>
+                    <li class="footer-one-content-item">
+                        <a href="#"><i class="fa-solid fa-earth-americas"></i> Vietnam / Vietnamese</a>
+                    </li>
+                    <li class="footer-one-content-item">
+                        <a href="#"><i class="fa-solid fa-circle-question"></i> Help & Support</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one-content">
+                <ul class="footer-one-content-work-list">
+                    <h2>Việc làm</h2>
+                    <li class="footer-one-content-work-item"><a href="#">Thể Loại</a></li>
+                    <li class="footer-one-content-work-item"><a href="#">Doanh nghiệp</a></li>
+                    <li class="footer-one-content-work-item"><a href="#">Cuộc thi</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content">
+                <ul class="footer-one-content-about-list">
+                    <h2>Về</h2>
+                    <li class="footer-one-content-about-item"><a href="#">Về chúng tôi</a></li>
+                    <li class="footer-one-content-about-item"><a href="#">Bảo mật</a></li>
+                    <li class="footer-one-content-about-item"><a href="#">team</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-term">
+                <ul class="footer-one-content-term-list">
+                    <h2>Điều khoản</h2>
+                    <li class="footer-one-content-term-item"><a href="#">Chính sách bảo mật</a></li>
+                    <li class="footer-one-content-term-item"><a href="#">Các điều khoản và điều kiện</a></li>
+                    <li class="footer-one-content-term-item"><a href="#">Chính sách bản quyền</a></li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-partners">
+                <ul class="footer-one-content-partners-list">
+                    <h2>Đối tác</h2>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">google</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">nasa</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">mars</a>
+                    </li>
+                    <li class="footer-one-content-partners-item">
+                        <a href="#">alien</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-one-content footer-one-content-app">
+                <ul class="footer-one-content-app-list">
+                    <h2>Ứng dụng</h2>
+                    <li class="footer-one-content-app-item">
+                        <a href="#"><img src="./asset/img/app_store.png" alt=""></a>
+                    </li>
+                    <li class="footer-one-content-app-item">
+                        <a href="#"><img src="./asset/img/google_play.png" alt=""></a>
+                    </li>
+                    <li class="footer-one-content-app-item">
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-facebook"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-twitter"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-youtube"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="#" class="footer-one-content-app-item-link footer-one-content-app-item-insta"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-two">
+            <div class="footer-two-content">
+                <span>
+                    423423 <br>
+                    Người dùng
+                </span>
+            </div>
+            <div class="footer-two-content">
+                <span>
+                    463 <br>
+                    Số lượng công việc đã đăng
+                </span>
+            </div>
+            <div class="footer-two-content">
+                <span>
+                    JobsGo ® is a registered Trademark of Freelancer Technology Pty Limited (ACN 142 189 759) <br>
+                    Copyright © 2023 Freelancer Technology Pty Limited (ACN 142 189 759)
+                </span>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script>
+    // đăng xuất
+
+ window.onload = function(){
+  
+  var buttons = document.querySelector("#logout");
+
+    buttons.addEventListener("click", function logout(){
+        window.location.href = "index.html"
+    }) 
+ 
+  };
+</script>
+</html>
